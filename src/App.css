@@ -1,0 +1,88 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #131517;
+}
+
+.dropdown {
+  position: relative;
+  cursor: pointer;
+  z-index: 6;
+}
+.image3d:hover{
+  transition: all ease-out 0.3s;
+  scale:1.1;
+}
+.image3d:not(hover){
+  transition: all ease-out 0.3s;
+  scale:1;
+}
+.bord{
+  border-top: .4vw solid #13151732;
+  border-bottom: .4vw solid #1315171e;
+}
+ul li {
+  padding: .5vw 1vw;
+}
+
+li:hover {
+  color: #42cba4
+}
+
+.dropbtn {
+  padding: .5vw 1vw;
+}
+
+.dropcontent {
+  background-color: rgb(60, 61, 61);
+  color: white;
+  border-radius: .5vw;
+  padding: .7vw;
+  display: none;
+  z-index: 5;
+  width: 16vw;
+  position: absolute;
+  margin: .2vwvw 0;
+  background-color: #171A22;
+}
+
+.dropcontent a {
+  border-radius: .5vw;
+  color: white;
+  display: block;
+  padding: 1vw 0.6vw;
+  font-weight: 500;
+  font-size: 1vw;
+}
+
+.dropdown:hover .dropcontent {
+  display: inline-block;
+}
+
+.dropcontent a:hover {
+  background-color: #1E3639;
+}
+
+.drop-arrow div>img {
+  display: none;
+}
+
+.dropcontent a:hover div>img {
+  display: block;
+}
+
+.fees-calc {
+  /* box-shadow: 0 -3vw 2vw #00ffb739 inset; */
+  box-shadow: 0 -5vw 9vw #18f8b92d inset;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.range-input {
+  accent-color: #42cba4;
+}
+
