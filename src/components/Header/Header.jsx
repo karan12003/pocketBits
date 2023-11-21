@@ -1,5 +1,5 @@
 import React, { useLayoutEffect } from 'react'
-import logo from './mainLogoLight.4add4241.svg'
+import logo from './CRYPTO__1_-removebg-preview.png'
 import signinSvg from './signIn-icon.bb4a4491.svg'
 import signupSvg from './createAnAccount-icon.6077e84c.svg'
 import whiteArrow from './pngwing.com.png'
@@ -47,8 +47,9 @@ function Header() {
     return (
         <>
             <div className="nav fixed z-[10] mt-0 bg-gray-600/20 text-white text-[1.8vw] md:text-[1.6vw] lg:text-[1.2vw] w-[100%] max-w-[100vw] mx-auto font-[700] flex items-center  justify-between">
-                <div className="w-[30%] md:w-[18%]">
+                <div className="w-[30%] md:w-[18%] relative">
                     <img src={logo} className="w-[100%]" />
+                    
                 </div>
                 <div className="navbar hidden md:flex lg:flex w-[40%] justify-center items-center ml-[4vw]">
                     <ul className="flex list-none items-center">

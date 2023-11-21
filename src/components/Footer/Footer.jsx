@@ -9,7 +9,7 @@ function Footer() {
                 <div className="flex justify-around lg:gap-[10vw] text-gray-400 p-[1vw] lg:p-[2vw]">
                     <div className="list p-[3vw] lg:p-[1vw]  w-[40%]  flex flex-col">
                         <h3 className="text-white text-[7vw] md:text-[3vw] lg:text-[1.8vw] my-[5vw] lg:my-[2vw] font-bold">Company</h3>
-                        <div className='flex gap-[.5vw] flex-col cursor-pointer font-medium text-[3vw] md:text-[2vw] lg:text-[1vw]'>
+                        <div className='footerList flex gap-[.5vw] flex-col cursor-pointer font-medium text-[3vw] md:text-[2vw] lg:text-[1vw]'>
                             <p>About Us</p>
                             <p>Blog</p>
                             <p>Fee Structure</p>
@@ -21,7 +21,7 @@ function Footer() {
                     </div>
                     <div className="list p-[3vw] lg:p-[1vw]  w-[40%]  flex flex-col">
                         <h3 className="text-white text-[7vw]  md:text-[3vw]  lg:text-[1.8vw] my-[5vw] lg:my-[2vw] font-bold">Support</h3>
-                        <div className='flex gap-[.5vw] flex-col cursor-pointer font-medium text-[3vw] md:text-[2vw] lg:text-[1vw]'>
+                        <div className='footerList flex gap-[.5vw] flex-col cursor-pointer font-medium text-[3vw] md:text-[2vw] lg:text-[1vw]'>
                             <p>Support Center</p>
                             <p>Support Ticket</p>
                             <p>Partnership Queries</p>
@@ -34,7 +34,7 @@ function Footer() {
                 <div className="flex justify-around lg:gap-[10vw] text-gray-400  lg:p-[2vw]">
                     <div className="list p-[3vw] lg:p-[1vw] w-[40%]  flex flex-col">
                         <h3 className="text-white text-[7vw]  md:text-[3vw] whitespace-nowrap lg:text-[1.8vw] my-[5vw] lg:my-[2vw] font-bold">Follow Us!</h3>
-                        <div className='flex gap-[.5vw] w-[10%] flex-col cursor-pointer font-medium text-[3vw] md:text-[2vw] lg:text-[1vw]'>
+                        <div className='footerList flex gap-[.5vw] w-[10%] flex-col cursor-pointer font-medium text-[3vw] md:text-[2vw] lg:text-[1vw]'>
                             <p>Twitter</p>
                             <p>Instagram</p>
                             <p>Facebook</p>

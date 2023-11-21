@@ -86,3 +86,6 @@ li:hover {
   accent-color: #42cba4;
 }
 
+.footerList p:hover{
+  text-decoration: underline;
+}

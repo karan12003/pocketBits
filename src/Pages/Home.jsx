@@ -210,7 +210,7 @@ function Home() {
               <div className='fees-calc rounded-b-[4vw] flex justify-between items-center p-[2vw] px-[8vw] md:px-[4vw] lg:px-[2vw]'>
                 <div>
                   <img src={pbIcon} className="w-[6vw] md:w-[4vw] lg:w-[2vw]" />
-                  <p className="text-white font-bold text-[3.4vw] md:[2.6vw] lg:text-[1.2vw]">PocketBits</p>
+                  <p className="text-white font-bold text-[3.4vw] md:[2.6vw] lg:text-[1.2vw]">CryptoBits</p>
                 </div>
                 <div className="font-bold text-white text-[5vw] md:text-[3vw] lg:text-[1.6vw] bg-[#42cba4] px-[.9vw] py-[.8vw] rounded-[.5vw]">₹0</div>
               </div>
@@ -297,7 +297,7 @@ function Home() {
         <div className="flex relative flex-col lg:flex-row items-center text-white p-[4vw] text-[5vw] md:text-[3.2vw] lg:text-[2.4vw] font-bold w-[full] text-center mx-[6vw] justify-between">
           <div className="w-full mx-auto lg:w-[50%] flex flex-col justify-center items-center lg:items-start ">
             <div className=''>
-              <p className="my-[3vw] lg:my-0 whitespace-nowrap  ">Start Trading today with <span className='text-[#42cba4]'>PocketBits</span></p>
+              <p className="my-[3vw] lg:my-0 whitespace-nowrap  ">Start Trading today with <span className='text-[#42cba4]'>CryptoBits</span></p>
             </div>
             <div className="flex justify-center lg:justify-normal items-center my-[3vw] w-[100%]">
               <div className="flex flex-col gap-[1vw] w-[45%]">
@@ -341,7 +341,7 @@ function Home() {
           </div>
           <div className='w-[60%] lg:w-[50%] px-[10vw]'>
             <h1 className="text-[3.2vw] lg:text-[3.3vw] md:text-[3.2vw]  mb-[2.2vw] font-bold">Refer Friends and <span className='text-[#42cba4] whitespace-nowrap'>Earn Rewards!</span></h1>
-            <p>Help your friends trade with unlimited <span className='text-[#42cba4]'>Zero-Fees</span> on PocketBits.</p>
+            <p>Help your friends trade with unlimited <span className='text-[#42cba4]'>Zero-Fees</span> on CryptoBits.</p>
             <p className="mb-[3.6vw] mt-[2.2vw] "> Earn <span className='text-[#42cba4]'>0.1%</span> rewards on each of their trades.</p>
             <Button name="REFER NOW" />
           </div>
@@ -352,31 +352,31 @@ function Home() {
           <div className="w-[100%] text-[2.9vw] md:text-[1.8vw] font-[600] lg:text-[1.2vw] flex justify-center items-center flex-col">
             <div className="faq my-[.8vw] w-full max-w-[95vw] md:max-w-[75vw] lg:max-w-[60vw]  mx-auto">
               <div onClick={faqBtn1} className='faqbtn  flex justify-between items-center cursor-pointer bg-gradient-to-r from-gray-600/80 to-gray-800/80 p-[2vw] md:p-[1.2vw] lg:p-[.8vw] rounded-[.6vw]'>
-                <p>Can I trade in INR on PocketBits?</p>
+                <p>Can I trade in INR on CryptoBits?</p>
                 <img src={faq} className="dra1 w-[8%] md:w-[6%] lg:w-[4%]" />
               </div>
-              <div className="faqContent1 hidden bg-[#1A1E23] p-[2vw] md:p-[1.3vw] lg:p-[1.1vw] rounded-[.6vw]">Yes, you can directly deposit and trade with INR on PocketBits</div>
+              <div className="faqContent1 hidden bg-[#1A1E23] p-[2vw] md:p-[1.3vw] lg:p-[1.1vw] rounded-[.6vw]">Yes, you can directly deposit and trade with INR on CryptoBits</div>
             </div>
             <div className="faq my-[.8vw] w-full max-w-[95vw] md:max-w-[75vw] lg:max-w-[60vw]  mx-auto">
               <div onClick={faqBtn2} className='faqbtn  flex justify-between items-center cursor-pointer bg-gradient-to-r from-gray-600/80 to-gray-800/80 p-[2vw] md:p-[1.2vw] lg:p-[.8vw] rounded-[.6vw]'>
-                <p>How secure is PocketBits?</p>
+                <p>How secure is CryptoBits?</p>
                 <img src={faq} className="dra2 w-[8%] md:w-[6%] lg:w-[4%]" />
               </div>
-              <div className="faqContent2 hidden bg-[#1A1E23] p-[2vw] md:p-[1.3vw] lg:p-[1.1vw] rounded-[.6vw]">90% of all user funds are stored in a Cold storage and are processed manually, hence funds are always secure even if by chance the systems are ever compromised or down. PocketBits has learned from years of experience and inbibes security in all of its core infrastructure including storing user data.</div>
+              <div className="faqContent2 hidden bg-[#1A1E23] p-[2vw] md:p-[1.3vw] lg:p-[1.1vw] rounded-[.6vw]">90% of all user funds are stored in a Cold storage and are processed manually, hence funds are always secure even if by chance the systems are ever compromised or down. CryptoBits has learned from years of experience and inbibes security in all of its core infrastructure including storing user data.</div>
             </div>
             <div className="faq my-[.8vw] w-full max-w-[95vw] md:max-w-[75vw] lg:max-w-[60vw]  mx-auto">
               <div onClick={faqBtn3} className='faqbtn  flex justify-between items-center cursor-pointer bg-gradient-to-r from-gray-600/80 to-gray-800/80 p-[2vw] md:p-[1.2vw] lg:p-[.8vw] rounded-[.6vw]'>
                 <p>What is a closed and open order book?</p>
                 <img src={faq} className="dra3 w-[8%] md:w-[6%] lg:w-[4%]" />
               </div>
-              <div className="faqContent3 hidden bg-[#1A1E23] p-[2vw] md:p-[1.3vw] lg:p-[1.1vw] rounded-[.6vw]">The order book is the list of all open orders that are currently available on an exchange for a specific asset. An open order is essentially another trader willing to buy or sell an asset at a specific price. Placing an order does not guarantee someone else will agree to take the offer. PocketBits offers a closed order book crypto trading experience wherein PocketBits is the counterparty to your trade and is always available to Buy or Sell with best prices in the market.Thus Instant and Easy.</div>
+              <div className="faqContent3 hidden bg-[#1A1E23] p-[2vw] md:p-[1.3vw] lg:p-[1.1vw] rounded-[.6vw]">The order book is the list of all open orders that are currently available on an exchange for a specific asset. An open order is essentially another trader willing to buy or sell an asset at a specific price. Placing an order does not guarantee someone else will agree to take the offer. CryptoBits offers a closed order book crypto trading experience wherein CryptoBits is the counterparty to your trade and is always available to Buy or Sell with best prices in the market.Thus Instant and Easy.</div>
             </div>
             <div className="faq my-[.8vw] w-full max-w-[95vw] md:max-w-[75vw] lg:max-w-[60vw]  mx-auto">
               <div onClick={faqBtn4} className='faqbtn  flex justify-between items-center cursor-pointer bg-gradient-to-r from-gray-600/80 to-gray-800/80 p-[2vw] md:p-[1.2vw] lg:p-[.8vw] rounded-[.6vw]'>
                 <p>What is slippage?</p>
                 <img src={faq} className="dra4 w-[8%] md:w-[6%] lg:w-[4%]" />
               </div>
-              <div className="faqContent4 hidden bg-[#1A1E23] p-[2vw] md:p-[1.3vw] lg:p-[1.1vw] rounded-[.6vw]">In an open order book buyers need to match buy orders with multiple sell orders placed by sellers at various prices on the order book, eventually increasing the actual buy price & vice versa for sellers. Slippage refers to the difference between the expected price of a trade and the price at which the trade is executed. On PocketBits we have 0% slippage and you can buy upto 10 Lakhs INR at the same price, what you see is what you get.</div>
+              <div className="faqContent4 hidden bg-[#1A1E23] p-[2vw] md:p-[1.3vw] lg:p-[1.1vw] rounded-[.6vw]">In an open order book buyers need to match buy orders with multiple sell orders placed by sellers at various prices on the order book, eventually increasing the actual buy price & vice versa for sellers. Slippage refers to the difference between the expected price of a trade and the price at which the trade is executed. On CryptoBits we have 0% slippage and you can buy upto 10 Lakhs INR at the same price, what you see is what you get.</div>
             </div>
             <div className="faq my-[.8vw] w-full max-w-[95vw] md:max-w-[75vw] lg:max-w-[60vw]  mx-auto">
               <div onClick={faqBtn5} className='faqbtn  flex justify-between items-center cursor-pointer bg-gradient-to-r from-gray-600/80 to-gray-800/80 p-[2vw] md:p-[1.2vw] lg:p-[.8vw] rounded-[.6vw]'>
@@ -390,7 +390,7 @@ function Home() {
                 <p>How do I earn without Trading?</p>
                 <img src={faq} className="dra6 w-[8%] md:w-[6%] lg:w-[4%]" />
               </div>
-              <div className="faqContent6 hidden bg-[#1A1E23] p-[2vw] md:p-[1.3vw] lg:p-[1.1vw] rounded-[.6vw]">You can earn without even trading by referring your friends to PocketBits and get 0.1% of the value of their trades as a reward*. You can even hold your crypto assets in our VAULT and earn upto 16.5% APY.</div>
+              <div className="faqContent6 hidden bg-[#1A1E23] p-[2vw] md:p-[1.3vw] lg:p-[1.1vw] rounded-[.6vw]">You can earn without even trading by referring your friends to CryptoBits and get 0.1% of the value of their trades as a reward*. You can even hold your crypto assets in our VAULT and earn upto 16.5% APY.</div>
             </div>
           </div>
           <div className="mb-[12vw] mt-[1vw] md:mb-[8vw] lg:my-[5vw]">
